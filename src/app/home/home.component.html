@@ -1,0 +1,16 @@
+<h5>Home component works!</h5>
+
+<h6>Http Get Method</h6>
+
+<table class="table table-bordered">
+    <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>email</th>
+    </tr>
+    <tr *ngFor="let employee of employees">
+        <td>{{employee.id}}</td>
+        <td>{{employee.name}}</td>
+        <td>{{employee.email}}</td>
+    </tr>
+</table>
